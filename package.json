@@ -1,0 +1,32 @@
+{
+  "name": "ajs-hw_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnutaSt/ajs-HW_Node.js.git"
+  },
+  "author": "AnnSt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnutaSt/ajs-HW_Node.js/issues"
+  },
+  "homepage": "https://github.com/AnutaSt/ajs-HW_Node.js#readme",
+  "dependencies": {
+    "@anutast/ajs-hw_platforms": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
